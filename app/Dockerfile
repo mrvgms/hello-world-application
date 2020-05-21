@@ -1,7 +1,7 @@
 ## Based image
 FROM python:3
 
-## Copy from root folder to artemis folder inside docker image
+## Copy from root folder to hello-world folder inside docker image
 COPY . /hello-world
 
 ## Expose 5000 port
